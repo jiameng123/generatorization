@@ -1,0 +1,2 @@
+# generatorization
+将类nodejs风格的api和promise转化为generator
