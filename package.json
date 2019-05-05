@@ -1,0 +1,18 @@
+{
+  "name": "generatorization",
+  "version": "1.0.0",
+  "description": "将类nodejs风格的api和promise转化为generator",
+  "main": "index.js",
+  "repository": "https://github.com/jiameng123/generatorization.git",
+  "author": "jiam <386805508@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {}
+}
