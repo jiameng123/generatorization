@@ -6,7 +6,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "lib"),
         filename: "index.js",
-        libraryTarget: "commonjs2",
-        globalObject: "this"
+        globalObject: "this",
+        libraryTarget: "umd",
+        umdNamedDefine: true
     }
 };

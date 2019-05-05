@@ -1,4 +1,4 @@
-const { genP } = require("../src");
+const genP = require("../lib");
 const assert = require("assert");
 
 function aa(a, b) {

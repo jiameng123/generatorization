@@ -33,6 +33,4 @@ function genP(genratorFunction) {
     });
 }
 
-module.exports = {
-    genP
-};
+module.exports = genP;

@@ -5,7 +5,13 @@
 ## example
 
 ```
-    var { genP } = require("generatorization");
+    npm install gen-promise
+
+    or
+
+    yarn add gen-promise
+
+    var genP  = require("gen-promise");
 
     genP(function*() {
         const a = yiled Promise.resolve(123);
